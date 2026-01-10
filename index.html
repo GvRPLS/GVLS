@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>GVBR - Regras Oficiais</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="img/gvbr.png">
-
     <style>
         ul {
             list-style: none;
@@ -49,13 +49,13 @@
 
         section.layout {
             display: flex;
-            gap: 20px;
+            justify-content: space-around;
             padding: 20px;
         }
 
-        .regras,
-        .como-iniciar {
-            flex: 1;
+        .imagem img {
+            max-width: 500px;
+            border-radius: 8px;
         }
 
         .discord-btn {
@@ -65,7 +65,8 @@
             color: white;
             padding: 10px 20px;
             border-radius: 8px;
-            margin: 10px 20px;
+            margin: 10px 0;
+            text-align: center;
         }
 
         footer {
@@ -141,32 +142,9 @@
             </ul>
         </div>
 
-        <!-- NOVA COLUNA DIREITA -->
-        <div class="como-iniciar">
-            <h2>📘 Como Iniciar No Servidor</h2>
-
-            <ul>
-                <li>
-                    <a href="registrar.html">
-                        Registro Automotivo
-                        <span>— Como Registrar Seu Primeiro Veículo.</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="carrosproibidos.html">
-                        Carros Proibidos
-                        <span>— Veículos não permitidos no servidor.</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="limitesvelocidade.html">
-                        Limites de Velocidade
-                        <span>— Regras de trânsito e segurança.</span>
-                    </a>
-                </li>
-            </ul>
+        <!-- COLUNA DIREITA (IMAGEM) -->
+        <div class="imagem">
+            <img src="img/gvbr.png" alt="GVBR">
         </div>
 
     </section>
@@ -177,4 +155,3 @@
 
 </body>
 </html>
-
